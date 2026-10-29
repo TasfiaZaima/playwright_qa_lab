@@ -1,0 +1,21 @@
+{
+  "name": "practise_playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "pom",
+    "qa-practice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright project for QA Practice Lab using Page Object Model",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
